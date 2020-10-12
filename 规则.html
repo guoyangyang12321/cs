@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live</title>
+</head>
+<body>
+<div id="=box2" style="width: 500px;height: 300px;position: fixed"><span style="text-align:center;color: green;font-size: 24px">
+   游戏规则：<br/>
+    1.第一关你有三条命<br/>
+    2.怪物碰到你会减去一条命，返回初始位置<br/>
+    3.宝箱有陷阱，伤害同上；也有机遇，会传送到下面，省去时间<br/>
+    4.到达传送阵，即可进入下一关<br/>
+    5.第二关，只要存活3分钟，及胜利；<br/>
+    6.怪物碰到你会减去一条命，返回随机位置（2）
+</span></div>
+<button id="bt1" style="margin-top: 300px">返回</button>
+<script>
+    var bt1=document.getElementById('bt1');
+    bt1.onmouseover=function () {
+        self.location='index.html';
+    };
+</script>
+</body>
+</html>

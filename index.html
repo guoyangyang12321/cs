@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Live</title>
+</head>
+<body>
+<img src="img/fc.jpg"><br/>
+<button id="bt1">游戏简介</button>
+<button id="bt2">游戏规则</button>
+<button id="bt3">游戏开始</button>
+<script>
+    var bt1=document.getElementById('bt1');
+    var bt2=document.getElementById('bt2');
+    var bt3=document.getElementById('bt3');
+    var box1=document.getElementById('box1');
+    var box2=document.getElementById('box2');
+    bt1.onmouseover=function () {
+        self.location='简介.html';
+    };
+    bt2.onclick=function () {
+        self.location='规则.html';
+    };
+    bt3.onclick=function () {
+        self.location='indexs.html';
+    }
+</script>
+</body>
+</html>
